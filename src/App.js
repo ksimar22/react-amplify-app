@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
@@ -7,56 +7,73 @@ function App() {
       <header>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </nav>
       </header>
       <main>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, my name is John Doe and I am a web developer based in New York City. I have been building websites for over 5 years and I specialize in creating responsive and user-friendly designs. In my portfolio, you can find examples of my work and learn more about my skills and experience.</p>
-        <h2>My Work Experience</h2>
-        <ul>
-          <li>
-            <h3>Web Developer, Acme Inc.</h3>
-            <p>June 2020 - Present</p>
-            <ul>
-              <li>Designed and developed responsive websites using HTML, CSS, and JavaScript</li>
-              <li>Implemented new features and functionality using React</li>
-              <li>Collaborated with team members to meet project deadlines</li>
-              <li>Optimized website performance and improved user experience</li>
-            </ul>
-          </li>
-          <li>
-            <h3>Front-end Developer, XYZ Company</h3>
-            <p>January 2018 - May 2020</p>
-            <ul>
-              <li>Created and maintained client websites using WordPress</li>
-              <li>Developed custom themes and plugins using PHP and JavaScript</li>
-              <li>Designed user interfaces and optimized website accessibility</li>
-            </ul>
-          </li>
-        </ul>
-        <h2>My Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>MySQL</li>
-        </ul>
-        <h2>My Projects</h2>
-        <ul>
-          <li><a href="#">Project 1</a></li>
-          <li><a href="#">Project 2</a></li>
-          <li><a href="#">Project 3</a></li>
-        </ul>
+        <section id="hero">
+          <h1>Hi, I'm [Your Name]</h1>
+          <p>A [Your Profession] based in [Your Location].</p>
+        </section>
+        <section id="about">
+          <h2>About Me</h2>
+          <p>[Your Description]</p>
+        </section>
+        <section id="experience">
+          <h2>Experience</h2>
+          <ul>
+            <li>
+              <h3>[Job Title]</h3>
+              <p>[Company Name] - [Employment Dates]</p>
+              <p>[Job Description]</p>
+            </li>
+            <li>
+              <h3>[Job Title]</h3>
+              <p>[Company Name] - [Employment Dates]</p>
+              <p>[Job Description]</p>
+            </li>
+          </ul>
+        </section>
+        <section id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <h3>[Project Title]</h3>
+              <p>[Project Description]</p>
+            </li>
+            <li>
+              <h3>[Project Title]</h3>
+              <p>[Project Description]</p>
+            </li>
+          </ul>
+        </section>
+        <section id="contact">
+          <h2>Contact Me</h2>
+          <form>
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </section>
       </main>
       <footer>
-        <p>Copyright &copy; 2023</p>
+        <p>&copy; 2023 [Your Name]</p>
       </footer>
     </div>
   );
