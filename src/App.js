@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from Simar</h1>
+        <img src="https://nosidebar.com/wp-content/uploads/i-love-you.jpg" />
+        <h1>Hello Babe I love you a lot</h1>
       </header>
     </div>
   );
