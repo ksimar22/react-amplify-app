@@ -1,12 +1,11 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.png'
+//import ME from '../../assets/me-about.png'
 
 const About = () => {
   return (
     <section id='about'>
       <h2>About Me</h2>
-      <div className="container about__container"></div>
         <div className="about__content">
         <p> I'm a recent graduate from the University of Washington, where I earned my degree in Management Information Systems. I'm a dedicated and passionate individual with a strong interest in the Cloud Industry. I have also earned a certificate in Full Stack Cloud Development, and I am certified as an AWS Cloud Practitioner.
 
