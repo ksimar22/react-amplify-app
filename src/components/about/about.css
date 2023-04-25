@@ -35,7 +35,6 @@
 /*================ MEDIA QUERIES (MEDIUM DEVICES) ============*/
 @media screen and (max-width: 1024px) {
 
-
     .about__content p {
         margin: 18rem auto 4rem;
     }
